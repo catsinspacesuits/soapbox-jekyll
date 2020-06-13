@@ -2,7 +2,7 @@ html, body { margin: 0; padding: 0; width: 100%; }
 
 body { font-family: "Helvetica Neue",sans-serif; font-weight: lighter; }
 
-.background-image { position: relative; background-image: #fabf03; width: 100%; height: 100vh; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -2; }
+.background-image { position: relative; background-image: #fabf03; width: 100%; height: 800px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -2; }
 
 .overlay { background-color: rgba(0, 0, 0, 0.2); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
 
@@ -14,23 +14,51 @@ body { font-family: "Helvetica Neue",sans-serif; font-weight: lighter; }
 
 .title { display: block; width: 100%; margin: 0 auto; text-align: center; color: black; position: absolute; bottom: 0; font-weight: 900; font-size: 4rem; }
 
-.logo { line-height: 60px; position: fixed; float: left; margin: 16px 46px; color: #fff; font-weight: bold; font-size: 20px; letter-spacing: 2px; }
+.logo-nav { height: 70px; width: 70px; float: left; background-size: contain; background-repeat: no-repeat; margin: 1rem 2rem; }
 
 nav { position: fixed; width: 100%; line-height: 60px; }
 
-nav ul { line-height: 60px; list-style: none; background: rgba(0, 0, 0, 0); overflow: hidden; color: #fff; padding: 0; text-align: right; margin: 0; padding-right: 40px; transition: 1s; }
+nav ul { line-height: 60px; list-style: none; background: rgba(0, 0, 0, 0); overflow: hidden; color: #222; padding: 0; text-align: right; margin: 0; padding-right: 40px; transition: 1s; }
 
 nav.black ul { background: #222; }
 
 nav ul li { display: inline-block; padding: 16px 40px; }
 
-nav ul li a { text-decoration: none; color: #fff; font-size: 1.5rem; }
+nav ul li a { text-decoration: none; color: #222; font-size: 1.5rem; font-weight: 700; }
 
-nav ul li a:hover { color: #85cab5; text-decoration: none; font: 900; }
+nav ul li a:hover { color: #85cab5; text-decoration: none; }
 
-.menu-icon { line-height: 60px; width: 100%; background: #222; text-align: right; box-sizing: border-box; padding: 15px 24px; cursor: pointer; color: #fff; display: none; }
+.menu-icon { line-height: 60px; width: 100%; background: #222; text-align: right; box-sizing: border-box; padding: 15px 24px; cursor: pointer; color: #222; display: none; }
 
 @media (max-width: 786px) { .logo { position: fixed; top: 0; margin-top: 16px; } nav ul { max-height: 0px; background: #222; } nav.black ul { background: #222; } .showing { max-height: 34em; } nav ul li { box-sizing: border-box; width: 100%; padding: 24px; text-align: center; } .menu-icon { display: block; } }
+
+section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px; text-transform: uppercase; }
+
+#footer { background-color: #015f78 !important; padding: 60px 0; }
+
+#footer h5 { padding-left: 10px; border-left: 3px solid #eeeeee; padding-bottom: 6px; margin-bottom: 20px; color: #ffffff; }
+
+#footer a { color: #ffffff; text-decoration: none !important; background-color: transparent; -webkit-text-decoration-skip: objects; }
+
+#footer ul.social li { padding: 3px 0; }
+
+#footer ul.social li a i { margin-right: 5px; font-size: 25px; -webkit-transition: .5s all ease; -moz-transition: .5s all ease; transition: .5s all ease; }
+
+#footer ul.social li:hover a i { font-size: 30px; margin-top: -10px; }
+
+#footer ul.social li a, #footer ul.quick-links li a { color: #ffffff; }
+
+#footer ul.social li a:hover { color: #eeeeee; }
+
+#footer ul.quick-links li { padding: 3px 0; -webkit-transition: .5s all ease; -moz-transition: .5s all ease; transition: .5s all ease; }
+
+#footer ul.quick-links li:hover { padding: 3px 0; margin-left: 5px; font-weight: 700; }
+
+#footer ul.quick-links li a i { margin-right: 5px; }
+
+#footer ul.quick-links li:hover a i { font-weight: 700; }
+
+@media (max-width: 767px) { #footer h5 { padding-left: 0; border-left: transparent; padding-bottom: 0px; margin-bottom: 10px; } }
 
 /*! Bootstrap v4.0.0 (https://getbootstrap.com) Copyright 2011-2018 The Bootstrap Authors Copyright 2011-2018 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #f46507; --yellow: #ffc107; --green: #28a745; --teal: #85cab5; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }

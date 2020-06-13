@@ -1,12 +1,10 @@
-.logo {
-      line-height: 60px;
-      position: fixed;
+.logo-nav {
+      height: 70px;
+      width: 70px;
       float: left;
-      margin: 16px 46px;
-      color: #fff;
-      font-weight: bold;
-      font-size: 20px;
-      letter-spacing: 2px;
+      background-size: contain; 
+      background-repeat: no-repeat;
+      margin: 1rem 2rem;
 }
 
 nav {
@@ -20,7 +18,7 @@ nav ul {
       list-style: none;
       background: rgba(0, 0, 0, 0);
       overflow: hidden;
-      color: #fff;
+      color: #222;
       padding: 0;
       text-align: right;
       margin: 0;
@@ -39,14 +37,14 @@ nav ul li {
 
 nav ul li a {
       text-decoration: none;
-      color: #fff;
+      color: #222;
       font-size: 1.5rem;
+      font-weight: 700;
 }
 
 nav ul li a:hover {
       color: $teal;
       text-decoration: none;
-      font: 900;
 }
 
 .menu-icon {
@@ -57,7 +55,7 @@ nav ul li a:hover {
       box-sizing: border-box;
       padding: 15px 24px;
       cursor: pointer;
-      color: #fff;
+      color: #222;
       display: none;
 }
 
