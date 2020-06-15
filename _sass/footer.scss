@@ -6,18 +6,18 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background-color: $jade !important;
+    background-color: $light-peach !important;
     padding: 60px 0;
 }
 #footer h5{
-  padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+  padding-left: 12px;
+    border-left: 3px solid $orange;
     padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
+    margin: 0 0 20px 15px;
+    color:#222;
 }
 #footer a {
-    color: #ffffff;
+    color: #222;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -38,10 +38,10 @@ section .section-title {
 }
 #footer ul.social li a,
 #footer ul.quick-links li a{
-  color:#ffffff;
+  color:#222;
 }
 #footer ul.social li a:hover{
-  color:#eeeeee;
+  color:$teal;
 }
 #footer ul.quick-links li{
   padding: 3px 0;
@@ -61,11 +61,15 @@ section .section-title {
     font-weight: 700;
 }
 
+#footer .h6 {
+  color: $jade;
+}
+
 @media (max-width:767px){
   #footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
-}
+  }
 }

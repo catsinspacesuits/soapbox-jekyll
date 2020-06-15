@@ -1,15 +1,47 @@
-<div class="wrapper">
-  <nav>
-     <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
-     </div>
-     <a href="{{site.baseurl}}/"><div class="logo-nav" style="background-image: url('{{site.baseurl}}/assets/images/{{ page.logo-image }}');"></div></a>
-     <div class="menu">
-        <ul>
-           {% for item in site.data.navigation %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-        {% endfor %}
+<!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#" >
+                <img src="{{site.baseurl}}/assets/images/{{ page.logo-image }}" width="45" height="45" alt="Soapbox">
+              </a>
+            </li> -->
+<div class="navbar-wrapper">
+<nav class="navbar navbar-dark bg-dark navbar-expand-md bg-faded justify-content-center">
+  
+    <a class="navbar-brand d-flex w-50 mr-auto" href="#" >Logo
+                <!-- <img src="{{site.baseurl}}/assets/images/{{ page.logo-image }}" width="45" height="45" alt="Soapbox"> -->
+              </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-end">
+            {% for item in site.data.navigation %}
+            {% if item.name != "Activities" %}
+            <li class="nav-item"><a class="nav-link" href="{{ item.link }}">{{ item.name | upcase }}</a></li>
+            {% else %}
+            <li class="nav-item-dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ item.link }}">{{ item.name | upcase }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
-     </div>
-  </nav>
+        <!-- <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link nav-facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-youtube" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </li>
+        </ul> -->
+    </div>
+  
+</nav>
 </div>
+
