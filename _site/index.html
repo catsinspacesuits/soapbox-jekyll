@@ -4,10 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Home | Soapbox Collective</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ -->    <link rel="stylesheet" href="/assets/css/styles.css">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     
@@ -26,7 +30,7 @@
 <div class="navbar-wrapper">
 <nav class="navbar navbar-dark bg-dark navbar-expand-md bg-faded justify-content-center">
   
-    <a class="navbar-brand d-flex w-50 mr-auto" href="#" >Logo
+    <a class="navbar-brand d-flex w-50 mr-auto" href="/" >Logo
                 <!-- <img src="/assets/images/bunny-white.png" width="45" height="45" alt="Soapbox"> -->
               </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
@@ -36,23 +40,38 @@
         <ul class="navbar-nav w-100 justify-content-end">
             
             
-            <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
-            
-            
-            
             <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
             
             
             
-            <li class="nav-item-dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/blog">ACTIVITIES</a></li>
+            <li class="nav-item"><a class="nav-link" href="/multimedia">MULTIMEDIA</a></li>
             
             
             
-            <li class="nav-item"><a class="nav-link" href="/projects">NETWORK</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog">BLOG</a></li>
             
             
             
-            <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACTIVITIES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/projects">Projects</a>
+          <a class="dropdown-item" href="/multimedia">Multimedia</a>
+          <a class="dropdown-item" href="/">Research and Analysis</a>
+          <a class="dropdown-item" href="/">Workshops and Events</a>
+        </div>
+      </li>
+            
+            
+            
+            
+            <li class="nav-item"><a class="nav-link" href="/networks">NETWORK</a></li>
+            
+            
+            
+            <li class="nav-item"><a class="nav-link" href="/#contact">CONTACT</a></li>
             
             
         </ul>
@@ -80,6 +99,7 @@
       <span class="title">SOAPBOX COLLECTIVE</span> 
     </div>
   </div>
+  <button class="button header-button">JOIN US!</button>
 </section>
 
 
@@ -87,19 +107,19 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-2 offset-md-2 main-icon">
-        <img class="header-icon" src="/assets/images/icons/fist-small.png">
+        <a class="header-icon" href="/projects"><img src="/assets/images/icons/fist-small.png"></a>
         <h4 class="service-heading">Project Areas</h4>
       </div>
       <div class="col-md-2 main-icon">
-        <img class="header-icon" src="/assets/images/icons/film-small.png">
+        <a class="header-icon" href=""><img src="/assets/images/icons/film-small.png"></a>
         <h4 class="service-heading">Multimedia</h4>
       </div>
       <div class="col-md-2 main-icon">
-        <img class="header-icon" src="/assets/images/icons/wisdom.png">
+        <a class="header-icon" href=""><img src="/assets/images/icons/wisdom.png"></a>
         <h4 class="service-heading">Research and Analysis</h4>
       </div>
       <div class="col-md-2 main-icon">
-        <img class="header-icon" src="/assets/images/icons/calendar-small.png">
+        <a class="header-icon" href=""><img src="/assets/images/icons/calendar-small.png"></a>
         <h4 class="service-heading">Workshops and Events</h4>
       </div>
     </div>
@@ -124,9 +144,13 @@
 
   
 <section class="video-section">
+
   <div class="container">
+
     <div class="row">
+
       <div class="col-md-8 offset-md-2 video-box">
+        <h2 class="video-title">Video: blah blah blah</h2>
         <div style="position:relative;padding-top:56.25%;">
           <iframe src="https://www.youtube.com/embed/bjZqZWbmXK4" frameborder="0" allowfullscreen
           style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe> 
@@ -137,43 +161,68 @@
 </section>
 
 
-<section class="contact-section">
-  <div class="container contact-wrapper justify-content-md-center">
+<div class="newsletter-wrapper" style="background-image: url('/assets/images/background-home.jpeg');">
+  <div class="container">
+    <div class="newsletter-box row">
+      <div class="newsletter-small-text">Keep up to speed with what's going on through our newsletter and our social media channels!</div>
+    </div>  
     <div class="row">
-        <h1>CONTACT US</h1>
+      <div class="newsletter-button-wrapper">
+        <a href="/subscribe" target="_blank"><button class="button newsletter-button">SUBSCRIBE!</button></a>
+      </div>
     </div>
     <div class="row">
+      <div class="col-md-6 newsletter-social-wrapper">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section id="contact" class="contact-section">
+  <form action="https://formspree.io/mjvaoqrn" method="POST">
+  <div class="container contact-wrapper justify-content-md-center">
+    <div class="row">
+        <h1 class="contact-heading">CONTACT US</h1>
+    </div>
+    <div class="row contact-text">
         <h4 style="text-align:center">We'd love to hear from you!</h4>
     </div>
     <div class="row input-container offset-md-3 contact-center">
         <div class="col-sm-12">
           <div class="styled-input wide">
-            <input type="text" required />
+            <input type="text" name="name" required />
             <label>Name</label> 
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
           <div class="styled-input">
-            <input type="text" required />
+            <input type="text" name="_replyto" required />
             <label>Email</label> 
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
           <div class="styled-input" style="float:right;">
-            <input type="text" required />
+            <input type="text" name="phone_number"/>
             <label>Phone Number</label> 
           </div>
         </div>
         <div class="col-sm-12">
           <div class="styled-input wide">
-            <textarea required></textarea>
+            <textarea name="message" required></textarea>
             <label>Message</label>
           </div>
         </div>
         <button class="button contact-button">SUBMIT</button>
     </div>
   </div>
+</form>
 </section>
+
 <!-- <h1>SOAPBOX COLLECTIVE</h1>
  --> 
     <section id="footer">
@@ -183,15 +232,17 @@
           <h5>Links</h5>
           <ul class="list-unstyled quick-links">
             
-            <li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
-            
             <li><a href="/about"><i class="fa fa-angle-double-right"></i>About</a></li>
             
-            <li><a href="/blog"><i class="fa fa-angle-double-right"></i>Activities</a></li>
+            <li><a href="/multimedia"><i class="fa fa-angle-double-right"></i>Multimedia</a></li>
             
-            <li><a href="/projects"><i class="fa fa-angle-double-right"></i>Network</a></li>
+            <li><a href="/blog"><i class="fa fa-angle-double-right"></i>Blog</a></li>
             
-            <li><a href="/contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+            <li><a href="/"><i class="fa fa-angle-double-right"></i>Activities</a></li>
+            
+            <li><a href="/networks"><i class="fa fa-angle-double-right"></i>Network</a></li>
+            
+            <li><a href="/#contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
             
           </ul>
         </div>
@@ -226,10 +277,51 @@
     </div>
   </section>
   <!-- ./Footer 
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="http://localhost:4000/assets/js/main.js"></script>
+     
+
+
+
+ 
+<!--               <script src="http://localhost:4000/assets/js/main.js"></script>
+ -->
+
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  function filter(tag) {
+  setActiveTag(tag);
+  showContainer(tag);
+}
+
+function setActiveTag(tag) {
+  // loop through all items and remove active class
+  var items = document.getElementsByClassName('blog-tag-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'blog-tag-item');
+  }
+
+  // set the selected tag's item to active
+  var item = document.getElementById(tag + '-item');
+  if(item) {
+    item.setAttribute('class', 'blog-tag-item active');
+  }
+}
+
+function showContainer(tag) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected tag
+  var list = document.getElementById(tag + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+</script>
   </body>
 </html>

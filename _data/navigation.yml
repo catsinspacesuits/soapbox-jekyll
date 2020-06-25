@@ -1,10 +1,12 @@
-- name: Home
-  link: /
 - name: About
   link: /about
-- name: Activities
+- name: Multimedia
+  link: /multimedia   
+- name: Blog
   link: /blog
+- name: Activities
+  link: /
 - name: Network
-  link: /projects
+  link: /networks
 - name: Contact
-  link: /contact
+  link: /#contact

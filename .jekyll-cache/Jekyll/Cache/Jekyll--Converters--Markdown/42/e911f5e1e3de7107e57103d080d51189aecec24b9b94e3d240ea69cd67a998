@@ -1,0 +1,12 @@
+I"²<header class="masthead bg-primary text-white text-center" style="background-image: url('/assets/images/background-home.jpeg');">
+  <div class="container d-flex flex-column">
+    <!-- Masthead Avatar Image-->
+    <!-- Masthead Heading-->
+
+
+    <h1 class="masthead-heading text-uppercase mb-0">Another</h1>
+    <!-- Masthead Subheading-->
+    <p class="masthead-subheading font-weight-light mb-0">Blaaaahhhhhhh</p>
+  </div>
+ </header>
+:ET

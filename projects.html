@@ -1,16 +1,72 @@
 ---
 title: Projects
+tags: test hello
+categories: test hello
 ---
+
+<section>
+<h1>Projects</h1>
+<h1>Projects</h1>
+<h1>Projects</h1>
 <h1>Projects</h1>
 
-<ul>
-  {% for project in site.projects %}
-    <li>
-      <h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-      <h3>{{ project.sub-title }}</h3>
-      <p>{{ project.content | markdownify }}</p>
+<!-- <ul class="blog-tags-list">
+  {% assign sorted_tags =  site.project | map: 'tags' | join: ','  | split: ',' | uniq %}
+  {% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    {% assign projects = tag | last %}
+    <li class="blog-tag-item" id="{{ t }}-item">
+      <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
     </li>
   {% endfor %}
 </ul>
+ -->
+{% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+  {% for note in site.projects %}
+    {% if note.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+
+  {% assign sorted_tags =  site.project | map: 'sorted_tags' | join: ','  | split: ',' | uniq %}
+  {% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    {% assign projects = tag | last %}
+    <li class="blog-tag-item" id="{{ t }}-item">
+      <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+  <div class="blog-list-container hidden" id="{{ t }}-container">
+    <ul class="blog-list">
+      {% for project in projects %}
+        {% if project.tags contains t %}
+          <li>
+            <a href="{{ post.url }}">{{ project.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    {% assign numPosts = projects | size %}
+    {% if numPosts == 1 %}
+      <p>{{ projects | size }} project containing tag <b>{{ t }}</b></p>
+    {% else %}
+      <p>{{ projects | size }} projects containing tag <b>{{ t }}</b></p>
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+</section>
 
 

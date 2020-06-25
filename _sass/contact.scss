@@ -4,6 +4,10 @@
   background-color: $v-light-peach;
 }
 
+.contact-section h4 {
+  padding: 3.5rem;
+}
+
 .contact-wrapper h1, h4 {
     display: block;
     margin: 0 auto;
@@ -12,6 +16,16 @@
 
 .contact-center {
   margin: 0 auto !important;
+}
+
+.contact-heading {
+  width: 28%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 1rem;
 }
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -33,6 +47,21 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 @media only screen and (max-width: 768px){
     .styled-input {
         width:100%;
+    }
+    .contact-heading {
+      font-size: 26px;
+      width: 80%;
+    }
+
+    .contact-text {
+      font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+
+    .contact-heading {
+      width: 70%;
     }
 }
 

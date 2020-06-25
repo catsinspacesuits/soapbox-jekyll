@@ -1,5 +1,10 @@
+include:
+  - node_modules
+
 sass:
-  sass_dir: assets/css
+  load_paths:
+      - _sass
+      - node_modules
 
 collections:
   projects:

@@ -12,3 +12,12 @@
 .main-icon {
   padding: 0;
 }
+
+.header-icon img:hover{
+
+}
+
+.main-icon:hover {
+  transform: scale(1.05) translateZ(0);
+  transition: transform 200ms linear;
+}

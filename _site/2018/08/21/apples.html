@@ -3,11 +3,15 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Apples</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>apples</title>
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ -->    <link rel="stylesheet" href="/assets/css/styles.css">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     
@@ -26,7 +30,7 @@
 <div class="navbar-wrapper">
 <nav class="navbar navbar-dark bg-dark navbar-expand-md bg-faded justify-content-center">
   
-    <a class="navbar-brand d-flex w-50 mr-auto" href="#" >Logo
+    <a class="navbar-brand d-flex w-50 mr-auto" href="/" >Logo
                 <!-- <img src="/assets/images/" width="45" height="45" alt="Soapbox"> -->
               </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
@@ -36,23 +40,38 @@
         <ul class="navbar-nav w-100 justify-content-end">
             
             
-            <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
-            
-            
-            
             <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
             
             
             
-            <li class="nav-item-dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/blog">ACTIVITIES</a></li>
+            <li class="nav-item"><a class="nav-link" href="/multimedia">MULTIMEDIA</a></li>
             
             
             
-            <li class="nav-item"><a class="nav-link" href="/projects">NETWORK</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog">BLOG</a></li>
             
             
             
-            <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACTIVITIES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/projects">Projects</a>
+          <a class="dropdown-item" href="/multimedia">Multimedia</a>
+          <a class="dropdown-item" href="/">Research and Analysis</a>
+          <a class="dropdown-item" href="/">Workshops and Events</a>
+        </div>
+      </li>
+            
+            
+            
+            
+            <li class="nav-item"><a class="nav-link" href="/networks">NETWORK</a></li>
+            
+            
+            
+            <li class="nav-item"><a class="nav-link" href="/#contact">CONTACT</a></li>
             
             
         </ul>
@@ -73,7 +92,7 @@
 </div>
 
 
-    <h1>Apples</h1>
+    <h1>apples</h1>
 <p>21 Aug 2018 - jill</p>
 
 <p>An apple is a sweet, edible fruit produced by an apple tree.</p>
@@ -91,15 +110,17 @@ colonists.</p>
           <h5>Links</h5>
           <ul class="list-unstyled quick-links">
             
-            <li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
-            
             <li><a href="/about"><i class="fa fa-angle-double-right"></i>About</a></li>
             
-            <li><a href="/blog"><i class="fa fa-angle-double-right"></i>Activities</a></li>
+            <li><a href="/multimedia"><i class="fa fa-angle-double-right"></i>Multimedia</a></li>
             
-            <li><a href="/projects"><i class="fa fa-angle-double-right"></i>Network</a></li>
+            <li><a href="/blog"><i class="fa fa-angle-double-right"></i>Blog</a></li>
             
-            <li><a href="/contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+            <li><a href="/"><i class="fa fa-angle-double-right"></i>Activities</a></li>
+            
+            <li><a href="/networks"><i class="fa fa-angle-double-right"></i>Network</a></li>
+            
+            <li><a href="/#contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
             
           </ul>
         </div>
@@ -134,10 +155,51 @@ colonists.</p>
     </div>
   </section>
   <!-- ./Footer 
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="http://localhost:4000/assets/js/main.js"></script>
+     
+
+
+
+ 
+<!--               <script src="http://localhost:4000/assets/js/main.js"></script>
+ -->
+
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  function filter(tag) {
+  setActiveTag(tag);
+  showContainer(tag);
+}
+
+function setActiveTag(tag) {
+  // loop through all items and remove active class
+  var items = document.getElementsByClassName('blog-tag-item');
+  for(var i=0; i < items.length; i++) {
+    items[i].setAttribute('class', 'blog-tag-item');
+  }
+
+  // set the selected tag's item to active
+  var item = document.getElementById(tag + '-item');
+  if(item) {
+    item.setAttribute('class', 'blog-tag-item active');
+  }
+}
+
+function showContainer(tag) {
+  // loop through all lists and hide them
+  var lists = document.getElementsByClassName('blog-list-container');
+  for(var i=0; i < lists.length; i++) {
+    lists[i].setAttribute('class', 'blog-list-container hidden');
+  }
+
+  // remove the hidden class from the list corresponding to the selected tag
+  var list = document.getElementById(tag + '-container');
+  if(list) {
+    list.setAttribute('class', 'blog-list-container');
+  }
+}
+</script>
   </body>
 </html>

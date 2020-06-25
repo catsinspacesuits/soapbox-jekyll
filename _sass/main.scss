@@ -5,14 +5,17 @@ $teal: #85cab5;
 $jade: #015f78;
 $orange: #f46507;
 $dirty-pink: #f89f7d;
+$light-pink: #FFC1A4;
 $light-peach: #ffdc90;
 $v-light-peach: #FFE8DE;
 
 // FONTS
 
-$font-family-base: 'Lato', arial, sans-serif;
+$font-family-base: 'Abel', arial, sans-serif;
+
 body h1, h2, h3, h4, h5, h6 {
   font-family: 'Abel', sans-serif;
+  letter-spacing: 4px;
 }
 
 // --------------
@@ -34,7 +37,7 @@ body {
     padding-top: 30px;
     background-image: $mango;
     width: 100%;
-    height: 800px;
+    height: 700px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,9 +53,9 @@ body {
   transform: translate(-50%, -50%);
   height: 400px;
   width: 460px;
-  border: 1px solid black;
-  background:rgba(255,232,222, 0.6);
-    border-radius: 25px;
+  border: 1px solid gray;
+  background:rgba(255,232,222, 0.55);
+  border-radius: 25px;
 
 }
 
@@ -78,6 +81,13 @@ body {
   font-size: 2rem;
 }
 
+.header-button {
+  position: absolute;
+  right: 10%;
+  bottom: 13%;
+  background-color: $teal;
+}
+
 // VIDEO
 
 .video-section {
@@ -86,10 +96,28 @@ body {
 }
 
 .video-box {
-  border: 1px solid black;
   margin: 3rem 0;
   padding: 0 !important;
   }
+
+.video-title {
+  margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+    .contact-heading {
+      font-size: 26px;
+      width: 80%;
+    }
+
+    .contact-text {
+      font-size: 0.7rem;
+    }
+}
 
   // BUTTONS
 
@@ -101,5 +129,24 @@ body {
   cursor: pointer;
   box-shadow: 3px 3px 3px gray;
   font-family: 'Abel', sans-serif;
+  letter-spacing: 3.8px;
   }
 
+  // POSTS FILTER
+
+// .hidden {
+//   display: none!important;
+//   visibility: hidden!important;
+// }
+
+// PROJECTS/BLOG
+
+.project-thumbnail {
+  height: 300px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.blog-wrapper {
+  padding: 90px 10%;
+}
