@@ -4,19 +4,21 @@
         <div class="col-xs-12 col-sm-5 col-md-5 offset-md-2">
           <h5>Links</h5>
           <ul class="list-unstyled quick-links">
-            {% for item in site.data.navigation %}
+            {% for item in site.data.navigation.headings %}
+            {% if item.name == "Activities" %}
+            {% else %}
             <li><a href="{{ item.link }}"><i class="fa fa-angle-double-right"></i>{{ item.name }}</a></li>
+            {% endif %}
             {% endfor %}
+            <li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
           </ul>
         </div>
         <div class="col-xs-12 col-sm-5 col-md-5">
-          <h5>Links</h5>
+          <h5>Activities</h5>
           <ul class="list-unstyled quick-links">
-            <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-            <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-            <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-            <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-            <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+            {% for item in site.data.navigation.activities %}
+            <li><a href="{{item.link}}"><i class="fa fa-angle-double-right"></i>{{ item.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>

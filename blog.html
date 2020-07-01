@@ -3,10 +3,10 @@ title: Blog
 ---
 
 <div class="blog-wrapper">
-<h1>Blog</h1>
+<h1 class="blog-title">Blog</h1>
 
 
-<div class="blog-tags-list">
+<!-- <div class="blog-tags-list">
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
     {% assign t = tag | first %}
@@ -15,7 +15,7 @@ title: Blog
       <a href onclick="filter('{{ t }}'); return false;">{{ t }}</a>
     </h3>
   {% endfor %}
-</div>
+</div> -->
 
 {% for tag in site.tags %}
   {% assign t = tag | first %}
@@ -24,10 +24,24 @@ title: Blog
     <div class="blog-list row m-0">
       {% for post in posts %}
         {% if post.tags contains t %}
-          <div class="col-md-4">
+          <div class="col-lg-6 col-xl-4 mt-5">
             
-            <a href="{{ post.url }}">{{ post.title }}<div class="col-md-12 m-3  project-thumbnail"></div></a>
+            <a href="{{ post.url }}">
           
+          <div class="card card-image h-100"
+  style="background-image: url('{{site.baseurl}}/assets/images/{{ post.image }}');">
+
+  <!-- Content -->
+  <div class="text-white text-start d-flex align-items-center rgba-black-strong p-5">
+    <div>
+      <h5>Video</h5>
+      <h3 class="card-title pt-2"><strong>{{ post.title }}</strong></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos. amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos.
+        Odit sed qui, dolorum!.
+      </p>
+    </div>
+  </div>
+</div></a>
           </div>
         {% endif %}
       {% endfor %}
@@ -42,3 +56,5 @@ title: Blog
   </div>
 {% endfor %}
 </div>
+
+

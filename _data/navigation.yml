@@ -1,12 +1,19 @@
-- name: About
-  link: /about
-- name: Multimedia
-  link: /multimedia   
-- name: Blog
-  link: /blog
-- name: Activities
-  link: /
-- name: Network
-  link: /networks
-- name: Contact
-  link: /#contact
+headings: 
+  - name: About
+    link: /about   
+  - name: Activities
+    link: /
+  - name: Network
+    link: /networks
+  - name: Contact
+    link: /#contact
+
+activities:
+  - name: Blog
+    link: /blog
+  - name: Multimedia
+    link: /multimedia   
+  - name: Research and Analysis
+    link: /research
+  - name: Workshops and Events 
+    link: /events

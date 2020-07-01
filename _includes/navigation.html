@@ -21,7 +21,7 @@
     </button>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
         <ul class="navbar-nav w-100 justify-content-end">
-            {% for item in site.data.navigation %}
+            {% for item in site.data.navigation.headings %}
             {% if item.name != "Activities" %}
             <li class="nav-item"><a class="nav-link" href="{{ item.link }}">{{ item.name | upcase }}</a></li>
             {% else %}
@@ -30,16 +30,14 @@
           {{ item.name | upcase }}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/projects">Projects</a>
-          <a class="dropdown-item" href="/multimedia">Multimedia</a>
-          <a class="dropdown-item" href="/">Research and Analysis</a>
-          <a class="dropdown-item" href="/">Workshops and Events</a>
+          {% for item in site.data.navigation.activities %}
+          <a class="dropdown-item" href="{{item.link}}">{{ item.name }}</a>
+          {% endfor %}
         </div>
-      </li>
-            
-            {% endif %}
-            {% endfor %}
-        </ul>
+      </li>  
+      {% endif %}
+      {% endfor %}
+    </ul>
         <!-- <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
                 <a class="nav-link nav-facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>

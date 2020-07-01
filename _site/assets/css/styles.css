@@ -4,6 +4,8 @@ html, body { margin: 0; padding: 0; width: 100%; }
 
 body { font-weight: lighter; }
 
+a:hover, a:visited, a:link, a:active { text-decoration: none !important; }
+
 .background-image { position: relative; padding-top: 30px; background-image: #fabf03; width: 100%; height: 700px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -2; }
 
 .hero-text { text-align: center; position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%); height: 400px; width: 460px; border: 1px solid gray; background: rgba(255, 232, 222, 0.55); border-radius: 25px; }
@@ -24,21 +26,17 @@ body { font-weight: lighter; }
 
 .button { width: 170px; height: 60px; padding: 10px; border-radius: 30px; cursor: pointer; box-shadow: 3px 3px 3px gray; font-family: 'Abel', sans-serif; letter-spacing: 3.8px; }
 
-.project-thumbnail { height: 300px; background-color: red; border: 1px solid black; }
-
-.blog-wrapper { padding: 90px 10%; }
-
 .navbar-wrapper { position: fixed; width: 100%; z-index: 2; }
 
 ul li a { margin: 12px; font-size: 0.8rem; letter-spacing: 3px; }
 
-.dropdown-menu { background-color: #222222 !important; color: #fff !important; }
+.dropdown-menu { background-color: #343A40 !important; color: #fff !important; }
 
-.dropdown-item { color: #fff !important; margin: 0 !important; padding: 10px !important; background-color: #212529 !important; }
+.dropdown-item { color: #fff !important; margin: 0 !important; padding: 15px !important; background-color: #343A46 !important; }
 
-.masthead { height: 600px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; padding-top: 70px; box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
+.masthead { height: 540px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; padding-top: 70px; box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
 
-.masthead .masthead-heading { font-size: 6rem; font-weight: 900; line-height: 2.75rem; letter-spacing: 0.6rem; }
+.masthead .masthead-heading { font-size: 5rem; font-weight: 900; line-height: 2.75rem; letter-spacing: 0.6rem; }
 
 .masthead .masthead-subheading { font-size: 1.6rem; padding-top: 40px; }
 
@@ -106,13 +104,19 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .about-small-section { padding: 2rem 0; background-color: #FFE8DE; }
 
-.about-small-text { padding: 2rem; font-size: 1.1rem; line-height: 2.5rem; text-align: center; }
+.about-small-text { padding: 2rem; font-size: 1.1rem; line-height: 2; text-align: left; }
 
 .about-small-heading { text-align: center; border-bottom: 1px solid black; margin: 0 auto; padding: 1rem; width: 45%; }
 
 .about-small-box { background-color: #FFC1A4; padding: 4rem 2rem; border: 1px solid gray; }
 
 .about-button { display: block; margin: 0 auto; background-color: #85cab5; }
+
+.blog-wrapper { padding: 90px 10%; }
+
+.blog-wrapper .blog-title { text-align: center; }
+
+.card-image { box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); color: white; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 .paddingTB60 { padding: 60px 0px 60px 0px; }
 
@@ -124,7 +128,9 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .about-title p { color: #7a7a7a; line-height: 1.8; margin: 0 0 15px; }
 
-.about-text { padding-bottom: 12px; font-size: 1.7rem; }
+.about-first-para { padding-bottom: 12px; font-size: 1.7rem; }
+
+.about-para { font-size: 1.2rem; line-height: 2.2 !important; }
 
 .about-img { padding-left: 57px; }
 

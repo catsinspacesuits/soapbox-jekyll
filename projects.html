@@ -1,16 +1,9 @@
 ---
 title: Projects
-tags: test hello
-categories: test hello
 ---
 
 <section>
-<h1>Projects</h1>
-<h1>Projects</h1>
-<h1>Projects</h1>
-<h1>Projects</h1>
-
-<!-- <ul class="blog-tags-list">
+<ul class="blog-tags-list">
   {% assign sorted_tags =  site.project | map: 'tags' | join: ','  | split: ',' | uniq %}
   {% for tag in sorted_tags %}
     {% assign t = tag | first %}
@@ -20,7 +13,7 @@ categories: test hello
     </li>
   {% endfor %}
 </ul>
- -->
+
 {% assign tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
   <h3>{{ tag }}</h3>
