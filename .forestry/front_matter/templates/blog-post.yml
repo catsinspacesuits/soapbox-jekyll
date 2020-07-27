@@ -1,0 +1,22 @@
+---
+label: blog post
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: sub-title
+  label: sub-title
+- type: text
+  name: tags
+  label: tags
+- type: text
+  name: format
+  label: format
+- type: file
+  name: image
+  label: image
