@@ -1,8 +1,24 @@
 ---
 layout: default
 title: Networks
-sub-title: This is a sub-heading, blah blah. Text here, if you like.
+sub-title: Below is a list of organisings, campaigns and groups that we support or have worked with in the past with links to their sites.
 image: network.jpg
 ---
 
 {% include page_header.html %}
+
+<section class="network-wrapper">
+<div class="container">
+  <div class="row m-5">
+    <div class="col-md-6 offset-3">
+<ul class="list-group-flush"> 
+  {% for item in site.data.network %}
+  <li class="list-group-item"> 
+    <h5><strong><a href="{{ item.url }}">{{ item.name }}</a></strong></h5>
+  </li> 
+  {% endfor %}
+</ul>
+</div>
+</div>
+</div>
+</section>

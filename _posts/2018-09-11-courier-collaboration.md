@@ -3,7 +3,8 @@ layout: default
 title: Gojek Collaboration
 sub-title: Information exchange with food couriers in Indonesia
 image: gojek.jpg
-tag: podcast
+tag: essay
+format: essay
 
 ---
 

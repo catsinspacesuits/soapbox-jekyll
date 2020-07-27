@@ -1,7 +1,8 @@
 ---
 title: Mega Essay
-tags: video
+tags: article
 image: blm.jpg
+format: article
 ---
 
 {% include page_header.html %}

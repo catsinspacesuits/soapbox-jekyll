@@ -4,31 +4,20 @@
   z-index: 2;
 }
 
-// .nav-item .nav-facebook li:hover {
-//     color: $mango;
-// }
-
-// .nav-item .nav-twitter li:hover {
-//       color: $dirty-pink;
-// }
-
-// .nav-item .nav-youtube:hover {
-//       color: $teal;
-// }
-
-// nav .fa{
-//     font-size: 1.5rem;
-// }
+.navbar-wrapper nav {
+  padding: 16px 10px;
+}
 
 ul li a {
     margin: 12px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 3px;
 }
 
 .dropdown-menu {
-  background-color: #343A40 !important;
+  background: #222 !important;
   color: #fff !important;
+
 }
 
 .dropdown-item {
@@ -37,6 +26,10 @@ ul li a {
     padding: 15px !important;
     background-color: #343A46 !important;
 
+}
+
+.navbar-brand {
+  padding: 35px;
 }
 
 

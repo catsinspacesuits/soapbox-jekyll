@@ -1,14 +1,14 @@
-.newsletter-box {
-  
-
-}
 
 .newsletter-wrapper {
    width: 100%;
   width: 100%;
   height: 450px;
   background-size: cover;
+      background-position: center;
+
   background-attachment: fixed;
+  // box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.1);
+
 }
 
 .newsletter-button {
@@ -23,6 +23,9 @@
 .newsletter-social-wrapper {
   margin: 0 auto;
     text-align: center;
+      // box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.1);
+
+
 }
 
 .newsletter-social-wrapper a i {
@@ -32,15 +35,20 @@
   text-align: center;
 }
 
+.newsletter-social-wrapper a i:hover {
+  color: white;
+    transition: color 200ms linear;
+
+}
+
 .newsletter-small-text {
   width: 70%;
   text-align: center;
   font-size: 2rem;
   margin: 1.5rem auto;
   padding: 1rem;
-  border: 1px solid gray;
-  background:rgba(255,232,222, 0.55);
   border-radius: 5px;
+  font-weight: 600;
 
 }
 

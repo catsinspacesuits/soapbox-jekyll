@@ -3,7 +3,7 @@ title: Blog
 ---
 
 <div class="blog-wrapper">
-<h1 class="blog-title">Blog</h1>
+<h1 class="blog-title">Soapbox Blog</h1>
 
 
 <!-- <div class="blog-tags-list">
@@ -17,35 +17,32 @@ title: Blog
   {% endfor %}
 </div> -->
 
-{% for tag in site.tags %}
+<!-- {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
   <div class="container blog-list-container hidden" id="{{ t }}-container">
     <div class="blog-list row m-0">
       {% for post in posts %}
         {% if post.tags contains t %}
-          <div class="col-lg-6 col-xl-4 mt-5">
-            
+          <div class="col-lg-6 col-xl-4 mt-5">      
             <a href="{{ post.url }}">
-          
-          <div class="card card-image h-100"
-  style="background-image: url('{{site.baseurl}}/assets/images/{{ post.image }}');">
-
-  <!-- Content -->
-  <div class="text-white text-start d-flex align-items-center rgba-black-strong p-5">
-    <div>
-      <h5>Video</h5>
-      <h3 class="card-title pt-2"><strong>{{ post.title }}</strong></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos. amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos.
-        Odit sed qui, dolorum!.
-      </p>
-    </div>
-  </div>
-</div></a>
+              <div class="post-thumbnail h-100"
+              style="background-image: url('{{site.baseurl}}/assets/images/{{ post.image }}');"> -->
+               <!-- Content -->
+                <!-- <div class="text-white text-start d-flex align-items-center rgba-black-strong p-5">
+                  <div>
+                    <h5>{{ post.format | capitalize  }} </h5>
+                    <h3 class="card-title pt-2"><strong>{{ post.title }}</strong></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos. amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos.Odit sed qui, dolorum!.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         {% endif %}
       {% endfor %}
-    </div>
+    </div> -->
 
    <!--  {% assign numPosts = posts | size %}
     {% if numPosts == 1 %}
@@ -53,8 +50,39 @@ title: Blog
     {% else %}
       <p>{{ posts | size }} posts containing tag <b>{{ t }}</b></p>
     {% endif %} -->
-  </div>
+ <!--  </div>
 {% endfor %}
-</div>
+</div> -->
+
+
+<div class="container blog-list-container">
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col-lg-6 col-xl-4 mt-4  thumbnail-parent">
+      <a href="{{ post.url }}">
+        <div class="post-thumbnail h-100"
+              style="background-image: url('{{site.baseurl}}/assets/images/{{ post.image }}');">
+          <!-- Content -->
+          <div class="text-white text-start d-flex align-items-center rgba-black-strong p-5">
+            <div>
+              <!-- <h5>{{ post.format | capitalize }}</h5> -->
+              <h3 class="card-title pt-2"><strong>{{ post.title }}</strong></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos. amet, consectetur adipisicing elit. Repellat fus minus error nisi architecto nulla ipsum dignissimos.Odit sed qui, dolorum!.
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>  <!-- end of col -->
+    {% endfor %}
+  </div> <!-- end of row -->
+</div> <!-- end of container -->
+</div> <!-- end of wrapper -->
+
+
+
+
+
+
 
 

@@ -4,19 +4,25 @@
 }
 
 .about-small-text {
-    padding: 2rem;
+    padding: 1.5rem 4rem;
     font-size: 1.1rem;
     line-height: 2;
-    text-align: left;
+    text-align: center;
 
 }
 
 .about-small-heading {
   text-align: center;
-  border-bottom: 1px solid black;
-  margin: 0 auto;
-  padding: 1rem;
-  width: 45%;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.first-word {
+  color: black;
+}
+
+.second-word {
+  color: $jade;
 }
 
 .about-small-box {
@@ -29,6 +35,10 @@
   display: block;
   margin: 0 auto;
   background-color: $teal;
+  font-size: 0.9rem;
+  width: 200px;
 }
+
+
 
 
