@@ -12,10 +12,10 @@ fields:
   name: tags
   label: tags
 - name: image
-  type: file
+  type: text
   config:
-    maxSize: 64
+    required: false
   label: image
-  description: Use file name. e.g. example.jpg or another.png
+  description: Use file name. e.g. example.jpg
 pages:
 - _posts/2020-07-27-testing.md
