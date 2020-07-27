@@ -17,5 +17,11 @@ fields:
     required: false
   label: image
   description: Use file name. e.g. example.jpg
+- name: colour
+  type: color
+  label: colour
+  config:
+    required: false
+    color_format: Hex
 pages:
 - _posts/2020-07-27-testing.md
