@@ -1,0 +1,42 @@
+---
+label: home-page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: about-title
+  label: about-title
+- type: text
+  name: contact-title
+  label: contact-title
+- type: file
+  name: background-image
+  label: background-image
+- type: file
+  name: logo
+  label: logo
+- type: file
+  name: logo-image
+  label: logo-image
+- name: background-colour
+  type: color
+  label: background-colour
+  config:
+    required: false
+    color_format: Hex
+- name: about-box-colour
+  type: color
+  label: about-box-colour
+  config:
+    required: false
+    color_format: Hex
+- name: footer-colour
+  type: color
+  label: footer-colour
+  config:
+    required: false
+    color_format: Hex
+pages:
+- index.html
