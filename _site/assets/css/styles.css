@@ -18,7 +18,7 @@ section .main-header-wrapper { position: relative; z-index: -999 !important; }
 
 .header-button { position: absolute; right: 10%; bottom: 13%; background-color: #85cab5; z-index: 9999; }
 
-.video-section { background-color: #FFE8DE; padding: 4rem; }
+.video-section { padding: 4rem; }
 
 .video-box { margin: 3rem 0; padding: 0 !important; }
 
@@ -78,7 +78,7 @@ ul li a { margin: 12px; font-size: 1rem; letter-spacing: 3px; }
 
 .newsletter-small-text { width: 70%; text-align: center; font-size: 2rem; margin: 1.5rem auto; padding: 1rem; border-radius: 5px; font-weight: 600; }
 
-.contact-section { padding: 9rem 0; background-color: #FFE8DE; }
+.contact-section { padding: 9rem 0; }
 
 .contact-section h4 { padding: 3.5rem; }
 
@@ -118,7 +118,7 @@ input[type=checkbox] + label { color: #ccc; font-style: italic; }
 
 input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
-.about-small-section { padding: 2rem 0; background-color: #FFE8DE; }
+.about-small-section { padding: 2rem 0; }
 
 .about-small-text { padding: 1.5rem 4rem; font-size: 1.1rem; line-height: 2; text-align: center; }
 
@@ -128,7 +128,7 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .second-word { color: #015f78; }
 
-.about-small-box { background-color: #FFC1A4; padding: 4rem 2rem; border: 1px solid gray; }
+.about-small-box { padding: 4rem 2rem; border: 1px solid gray; }
 
 .about-button { display: block; margin: 0 auto; background-color: #85cab5; font-size: 0.9rem; width: 200px; }
 
@@ -183,7 +183,7 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px; text-transform: uppercase; }
 
-#footer { background-color: #FFC1A4 !important; padding: 60px 0; }
+#footer { padding: 60px 0; }
 
 #footer h5 { padding-left: 12px; border-left: 2px solid black; padding-bottom: 6px; margin: 0 0 20px 15px; color: #222; }
 
