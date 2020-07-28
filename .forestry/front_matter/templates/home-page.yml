@@ -20,3 +20,21 @@ fields:
 - type: file
   name: logo-image
   label: logo-image
+- name: background-colour
+  type: color
+  label: background-colour
+  config:
+    required: false
+    color_format: Hex
+- name: about-box-colour
+  type: color
+  label: about-box-colour
+  config:
+    required: false
+    color_format: Hex
+- name: footer-colour
+  type: color
+  label: footer-colour
+  config:
+    required: false
+    color_format: Hex
