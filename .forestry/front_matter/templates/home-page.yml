@@ -1,0 +1,22 @@
+---
+label: home-page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: about-title
+  label: about-title
+- type: text
+  name: contact-title
+  label: contact-title
+- type: file
+  name: background-image
+  label: background-image
+- type: file
+  name: logo
+  label: logo
+- type: file
+  name: logo-image
+  label: logo-image
