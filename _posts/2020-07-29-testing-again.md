@@ -5,7 +5,7 @@ tags: ''
 format: ''
 image: "/uploads/megaphone.jpg"
 video-url: https://www.youtube.com/embed/kq4ghiiSm0Q
-image-1: "/uploads/sign.jpg"
+image-1: sign.jpg
 double-image-1: "/uploads/camera.jpg"
 double-image-2: "/uploads/podcast.jpg"
 wide-image-1: "/uploads/gojek.jpg"
