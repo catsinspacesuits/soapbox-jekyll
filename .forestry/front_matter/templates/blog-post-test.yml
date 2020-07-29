@@ -18,17 +18,25 @@ fields:
   name: image
   label: image
 - type: text
-  name: image-1
-  label: image-1
-- type: text
-  name: double-image-1
-  label: double-image-1
-- type: text
-  name: double-image-2
-  label: double-image-2
-- type: text
-  name: wide-image-1
-  label: wide-image-1
-- type: text
   name: video-url
   label: video-url
+- name: image-1
+  type: file
+  config:
+    maxSize: 64
+  label: image-1
+- name: double-image-1
+  type: file
+  config:
+    maxSize: 64
+  label: double-image-1
+- name: double-image-2
+  type: file
+  config:
+    maxSize: 64
+  label: double-image-2
+- name: wide-image-1
+  type: file
+  config:
+    maxSize: 64
+  label: wide-image-1
