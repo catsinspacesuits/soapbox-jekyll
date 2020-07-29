@@ -1,0 +1,34 @@
+---
+label: blog post test
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: sub-title
+  label: sub-title
+- type: text
+  name: tags
+  label: tags
+- type: text
+  name: format
+  label: format
+- type: file
+  name: image
+  label: image
+- type: text
+  name: image-1
+  label: image-1
+- type: text
+  name: double-image-1
+  label: double-image-1
+- type: text
+  name: double-image-2
+  label: double-image-2
+- type: text
+  name: wide-image-1
+  label: wide-image-1
+- type: text
+  name: video-url
+  label: video-url
