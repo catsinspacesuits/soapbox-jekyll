@@ -4,7 +4,7 @@ sub-title: blah basd ad asd saf dsf
 tags: ''
 format: ''
 image: "/uploads/megaphone.jpg"
-video-url: https://www.youtube.com/watch?v=kq4ghiiSm0Q
+video-url: https://www.youtube.com/embed/kq4ghiiSm0Q
 image-1: "/uploads/sign.jpg"
 double-image-1: "/uploads/camera.jpg"
 double-image-2: "/uploads/podcast.jpg"
