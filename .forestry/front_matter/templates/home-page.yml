@@ -38,5 +38,11 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: video-url
+  type: text
+  config:
+    required: false
+  label: video-url
+  description: video for home page
 pages:
 - index.html
