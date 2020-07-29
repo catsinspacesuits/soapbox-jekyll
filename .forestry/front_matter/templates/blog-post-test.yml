@@ -40,3 +40,5 @@ fields:
   config:
     maxSize: 64
   label: wide-image-1
+pages:
+- _posts/testing-again.md
