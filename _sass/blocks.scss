@@ -1,0 +1,52 @@
+// VIDEO
+
+
+
+// IMAGE
+
+.block-image {
+  height: 500px;
+  width: 100%;
+  position:relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+} 
+
+.block-image-container {
+  padding: 0 !important;
+}
+
+// DOUBLE IMAGE
+
+.block-two-image {
+  height: 380px;
+  width: 100%;
+  position:relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+} 
+
+.block-two-image:nth-child(2n) {
+  padding-left: 20px;
+}
+
+.block-two-image {
+  margin-bottom: 30px;
+}
+
+// WIDE IMAGE
+
+.block-wide-image {
+  height: 500px;
+  width: 100%;
+  position:relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+
+} 

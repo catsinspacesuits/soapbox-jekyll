@@ -1,0 +1,29 @@
+I"°<header class="masthead bg-primary text-white" style="background-image: url('/assets/images/protester.jpg');">
+  <div class="container d-flex align-items-start flex-column">
+    <h1 class="masthead-heading text-uppercase mb-0">Mega Protests</h1>
+    <!-- Masthead Subheading-->
+    <p class="masthead-subheading font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+ </header>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 video-box">
+        <div style="position:relative;padding-top:56.25%;">
+          <iframe src="https://www.youtube.com/embed/7O8fiQ_maBg" frameborder="0" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe> 
+        </div>
+      </div>
+   </div>   
+  </div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div style="position:relative;">
+          <img class="block-image img-responsive" src="/assets/images/protester.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;" />
+        </div>
+      </div>
+   </div>   
+  </div>
+
+:ET
