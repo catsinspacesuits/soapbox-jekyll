@@ -36,7 +36,7 @@ section .main-header-wrapper { position: relative; z-index: -999 !important; }
 
 .network-wrapper .list-group-item { background-color: #fff; }
 
-.navbar-wrapper { position: fixed; width: 100%; z-index: 2; }
+.navbar-wrapper { position: fixed; width: 100%; z-index: 2; background-color: #222; }
 
 .navbar-wrapper nav { padding: 16px 10px; }
 
@@ -44,11 +44,11 @@ ul li a { margin: 12px; font-size: 1rem; letter-spacing: 3px; }
 
 .dropdown-menu { background: #222 !important; color: #fff !important; }
 
-.dropdown-item { color: #fff !important; margin: 0 !important; padding: 15px !important; background-color: #343A46 !important; }
+.dropdown-item { color: #fff !important; margin: 0 !important; padding: 15px !important; background-color: #222 !important; }
 
 .navbar-brand { padding: 35px; }
 
-.masthead { height: 540px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; padding-top: 70px; box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
+.masthead { height: 540px; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1; padding-top: 70px; margin-bottom: 40px; box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
 
 .masthead .masthead-heading { font-size: 5rem; font-weight: 900; line-height: 2.75rem; letter-spacing: 0.6rem; }
 
@@ -138,29 +138,31 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .post-thumbnail { background-repeat: no-repeat; background-position: center; background-size: cover; font-weight: bold; font-size: 1.3rem; text-align: center; color: black; min-height: 380px; }
 
-.thumbnail-parent:nth-child(4n + 1) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(133, 202, 181, 0.5); }
+.thumbnail-parent:nth-child(4n + 1) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(250, 191, 3, 0.5); }
 
 .thumbnail-parent:nth-child(4n + 2) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(211, 114, 78, 0.6); }
 
-.thumbnail-parent:nth-child(4n + 3) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(250, 191, 3, 0.5); }
+.thumbnail-parent:nth-child(4n + 3) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(1, 95, 120, 0.5); }
 
-.thumbnail-parent:nth-child(4n + 4) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(1, 95, 120, 0.5); }
+.thumbnail-parent:nth-child(4n + 4) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(133, 202, 181, 0.6); }
 
 .block-image { height: 500px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.block-image-container { padding: 0 !important; }
+.block-image-container { padding: 0 !important; margin: 45px 0; }
 
-.block-two-image { height: 380px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; }
+.image-1-caption { font-size: 1.1rem !important; color: #ccc !important; padding: 5px 12px; background-color: #111; }
 
-.block-two-image:nth-child(2n) { padding-left: 20px; }
+.block-two-image { height: 300px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; margin: 45px 0; }
 
-.block-two-image { margin-bottom: 30px; }
+.block-two-image-container { padding: 0 !important; }
 
-.block-wide-image { height: 500px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; margin-bottom: 30px; }
+.block-wide-image { height: 430px; width: 100%; position: fixed; bottom: 0; right: 0; position: relative; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; margin: 45px 0; }
 
-.intro-paragraph { padding-bottom: 12px; font-size: 1.7rem; color: black; }
+#intro-paragraph { padding-top: 20px; font-size: 1.7rem; }
 
-.paragraph { font-size: 1.35rem; line-height: 2.2 !important; color: black; }
+.paragraph { line-height: 2 !important; color: #222; }
+
+.normal-paragraph { font-size: 1.3rem; }
 
 .paddingTB60 { padding: 60px 0px 60px 0px; }
 
@@ -195,7 +197,7 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 section .section-title { text-align: center; color: #007b5e; margin-bottom: 50px; text-transform: uppercase; }
 
-#footer { padding: 60px 0; }
+#footer { padding: 60px 0; background-color: #fabf03; border-top: 1px solid #222; }
 
 #footer h5 { padding-left: 12px; border-left: 2px solid black; padding-bottom: 6px; margin: 0 0 20px 15px; color: #222; }
 

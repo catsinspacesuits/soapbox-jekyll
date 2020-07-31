@@ -11,55 +11,69 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  
 } 
 
 .block-image-container {
   padding: 0 !important;
+  margin: 45px 0;
+}
+
+.image-1-caption {
+  font-size: 1.1rem !important;
+  color: #ccc !important;
+  padding: 5px 12px;
+  background-color: #111;
 }
 
 // DOUBLE IMAGE
 
 .block-two-image {
-  height: 380px;
+  height: 300px;
   width: 100%;
   position:relative;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 45px 0;
 
 } 
 
-.block-two-image:nth-child(2n) {
-  padding-left: 20px;
-}
-
-.block-two-image {
-  margin-bottom: 30px;
+.block-two-image-container {
+  padding: 0 !important;
 }
 
 // WIDE IMAGE
 
 .block-wide-image {
-  height: 500px;
+  height: 430px;
   width: 100%;
-  position:relative;
+   position: fixed;
+  bottom: 0;
+  right: 0;
+  position: relative;
+    background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 30px;
+  margin: 45px 0;
 
 } 
 
 // TEXT
 
-.intro-paragraph {
-  padding-bottom: 12px; 
+#intro-paragraph {
+  padding-top: 20px; 
   font-size: 1.7rem;
-  color: black;
+  
 }
+
 .paragraph {
-  font-size: 1.35rem;
-  line-height: 2.2 !important;
-  color: black;
+  line-height: 2 !important;
+  color: #222;
+}
+
+.normal-paragraph {
+  font-size: 1.3rem;
 }
