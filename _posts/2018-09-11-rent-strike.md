@@ -7,7 +7,6 @@ tags: interview
 format: interview
 
 ---
-{% include page_header.html %}
 {% include about.html %}
 
 

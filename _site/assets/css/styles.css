@@ -16,7 +16,7 @@ section .main-header-wrapper { position: relative; z-index: -999 !important; }
 
 .title { display: block; text-align: center; margin: 2rem auto; color: white; position: absolute; bottom: 0; left: 14%; font-weight: 900; font-size: 1.7rem; }
 
-.header-button { position: absolute; right: 10%; bottom: 13%; background-color: #85cab5; z-index: 9999; }
+.header-button { position: absolute; right: 10%; bottom: 13%; background-color: #85cab5; }
 
 .video-section { padding: 4rem; }
 
@@ -134,17 +134,17 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .blog-wrapper { padding: 90px 10%; }
 
-.blog-wrapper .blog-title { text-align: center; padding: 2.5rem; }
+.blog-wrapper .blog-title { padding: 2rem; text-align: center; }
 
-.post-thumbnail { background-repeat: no-repeat; background-position: center; background-size: cover; font-weight: bold; font-size: 1.1rem; }
+.post-thumbnail { background-repeat: no-repeat; background-position: center; background-size: cover; font-weight: bold; font-size: 1.3rem; text-align: center; color: black; min-height: 380px; }
 
-.thumbnail-parent:nth-of-type(4n + 1) { box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); color: red; }
+.thumbnail-parent:nth-child(4n + 1) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(133, 202, 181, 0.5); }
 
-.thumbnail-parent:nth-of-type(4n + 2) { box-shadow: inset 0 0 0 1000px rgba(111, 0, 0, 0.4); }
+.thumbnail-parent:nth-child(4n + 2) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(211, 114, 78, 0.6); }
 
-.thumbnail-parent :nth-of-type(4n + 3) { box-shadow: inset 0 0 0 1000px rgba(0, 222, 0, 0.4); }
+.thumbnail-parent:nth-child(4n + 3) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(250, 191, 3, 0.5); }
 
-.thumbnail-parent :nth-of-type(4n + 4) { box-shadow: inset 0 0 0 1000px rgba(220, 20, 60, 0.4); }
+.thumbnail-parent:nth-child(4n + 4) .post-thumbnail { box-shadow: inset 0 0 0 1000px rgba(1, 95, 120, 0.5); }
 
 .block-image { height: 500px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
@@ -158,6 +158,10 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .block-wide-image { height: 500px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; margin-bottom: 30px; }
 
+.intro-paragraph { padding-bottom: 12px; font-size: 1.7rem; color: black; }
+
+.paragraph { font-size: 1.35rem; line-height: 2.2 !important; color: black; }
+
 .paddingTB60 { padding: 60px 0px 60px 0px; }
 
 .about-title h1 { color: #535353; font-size: 45px; font-weight: 600; }
@@ -167,10 +171,6 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 .about-title h3 { color: #535353; font-size: 23px; margin-bottom: 24px; }
 
 .about-title p { color: #7a7a7a; line-height: 1.8; margin: 0 0 15px; }
-
-.about-first-para { padding-bottom: 12px; font-size: 1.7rem; }
-
-.about-para { font-size: 1.2rem; line-height: 2.2 !important; }
 
 .about-img { padding-left: 57px; }
 
