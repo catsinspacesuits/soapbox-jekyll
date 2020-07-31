@@ -12,3 +12,12 @@ wide-image-1: "/uploads/event.jpg"
 image-1: sign.jpg
 
 ---
+{% include block-video.html %}
+
+{% include block-wide-image.html %}
+
+{% include block-two-image.html %}
+
+{% include block-video.html %}
+
+{% include block-image.html %}
