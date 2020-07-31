@@ -1,0 +1,44 @@
+---
+label: blog post test
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: sub-title
+  label: sub-title
+- type: text
+  name: tags
+  label: tags
+- type: text
+  name: format
+  label: format
+- type: file
+  name: image
+  label: image
+- type: text
+  name: video-url
+  label: video-url
+- name: double-image-1
+  type: file
+  config:
+    maxSize: 64
+  label: double-image-1
+- name: double-image-2
+  type: file
+  config:
+    maxSize: 64
+  label: double-image-2
+- name: wide-image-1
+  type: file
+  config:
+    maxSize: 64
+  label: wide-image-1
+- name: image-1
+  type: text
+  config:
+    required: false
+  label: image-1
+pages:
+- _posts/2020-07-29-testing-again.md
