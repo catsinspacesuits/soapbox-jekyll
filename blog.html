@@ -61,7 +61,7 @@ title: Blog
     {% for post in site.posts %}
     <div class="col-lg-6 col-xl-4 mt-4 thumbnail-parent">
       <a href="{{ post.url }}">
-        <div class="post-thumbnail h-100 text-white text-start d-flex rgba-black-strong p-5" style="background-image: url('{{site.baseurl}}/assets/images/{{ post.image }}');">
+        <div class="post-thumbnail h-100 text-white text-start d-flex rgba-black-strong p-5" style="background-image: url('{{site.baseurl}}/uploads/{{ post.main-image }}');">
           <!-- Content -->
           <div class="post-thumbnail-content">
             <h3 class="card-title pt-2"><strong>{{ post.title }}</strong></h3>

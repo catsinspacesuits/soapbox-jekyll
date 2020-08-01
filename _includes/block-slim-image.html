@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 block-slim-image-container">
+      <div class="block-slim-image img-responsive" style="background-image: url('{{site.baseurl}}/assets/images/{{ page.slim-image-1 }}');">
+      </div>
+        {% if page.slim-image-1-caption != "" and page.slim-image-1-caption != null %}
+        <p class="figure-caption image-1-caption">{{ page.slim-image-1-caption}}</p>
+        {% endif %}
+    </div>
+  </div>   
+</div>

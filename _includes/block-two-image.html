@@ -3,10 +3,16 @@
     <div class="offset-1 col-md-5 block-two-image-container">
       <div class="block-two-image img-responsive" style="background-image: url('{{site.baseurl}}/assets/images/{{ page.double-image-1 }}');">
       </div>
+      {% if page.double-image-1-caption != "" and page.double-image-1-caption != null %}
+        <p class="figure-caption image-1-caption">{{ page.double-image-1-caption}}</p>
+        {% endif %}
     </div>
     <div class="col-md-5 col-sm-12 block-two-image-container">
       <div class="block-two-image img-responsive" style="background-image: url('{{site.baseurl}}/assets/images/{{ page.double-image-2 }}');">
       </div>
+      {% if page.double-image-2-caption != "" and page.image-1-caption != null %}
+        <p class="figure-caption image-1-caption">{{ page.double-image-2-caption}}</p>
+        {% endif %}
     </div>
   </div>   
 </div>

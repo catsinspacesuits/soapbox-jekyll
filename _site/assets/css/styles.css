@@ -152,15 +152,19 @@ input[type=checkbox]:checked + label { color: #f00; font-style: normal; }
 
 .image-1-caption { font-size: 1.1rem !important; color: #ccc !important; padding: 5px 12px; background-color: #111; }
 
-.block-two-image { height: 300px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; margin: 45px 0; }
+.block-slim-image { height: 300px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; }
 
-.block-two-image-container { padding: 0 !important; }
+.block-slim-image-container { padding: 0 !important; margin: 45px 0; }
+
+.block-two-image { height: 300px; width: 100%; position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.block-two-image-container { padding: 0 !important; margin: 45px 0; }
 
 .block-wide-image { height: 430px; width: 100%; position: fixed; bottom: 0; right: 0; position: relative; background-attachment: fixed; background-repeat: no-repeat; background-position: center; background-size: cover; margin: 45px 0; }
 
 #intro-paragraph { padding-top: 20px; font-size: 1.7rem; }
 
-.paragraph { line-height: 2 !important; color: #222; }
+.paragraph { line-height: 1.6 !important; color: #222; display: inline-block; }
 
 .normal-paragraph { font-size: 1.3rem; }
 
