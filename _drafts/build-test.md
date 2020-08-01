@@ -21,7 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor lib
 
 </div>
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
 _Lorem ipsum_, or _lipsum_ as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's _De Finibus Bonorum et Malorum_ for use in a type specimen book. It usually begins with:
 
@@ -35,7 +35,7 @@ The passage experienced a surge in popularity during the 1960s when Letraset use
 
 {% include block-image.html %}
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1 >
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1 >
 
 \## Heading
 
@@ -59,17 +59,17 @@ _Tonight's agenda includes:_
 
 {% include block-two-image.html %}
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
-_We will conduct an annual review of capital gains issues._ Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_ 
+_We will conduct an annual review of capital gains issues._ Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_
 
 </div>
 
 {% include block-video.html %}
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
-_We will conduct an annual review of capital gains issues._ Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. 
+_We will conduct an annual review of capital gains issues._ Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word.
 
 Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_ , with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_.
 
@@ -77,7 +77,7 @@ Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonor
 
 {% include block-slim-image.html %}
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
 Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_ (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
 
@@ -87,7 +87,7 @@ Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia
 
 {% include block-wide-image.html %}
 
- <div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
 Richard McClintock, a Latin scholar from Hampden-Sydney College, is \[credited\]([https://en.wikipedia.org/wiki/Lorem_ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum "https://en.wikipedia.org/wiki/Lorem_ipsum") "Wikipedia – Lorem Ipsum") with discovering the source behind the ubiquitous filler text. In seeing a sample of _lorem ipsum_, his interest was piqued by _consectetur_—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from _De Finibus Bonorum et Malorum_ (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
 
