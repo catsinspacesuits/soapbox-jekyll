@@ -44,3 +44,5 @@ fields:
 - type: file
   name: wide-image-1
   label: wide-image-1
+pages:
+- _posts/build-test.md
