@@ -1,0 +1,46 @@
+---
+label: Build Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: sub-title
+  label: sub-title
+- type: file
+  name: main-image
+  label: main-image
+- type: text
+  name: video-1-url
+  label: video-1-url
+- type: text
+  name: video-1-caption
+  label: video-1-caption
+- type: file
+  name: image-1
+  label: image-1
+- type: text
+  name: image-1-caption
+  label: image-1-caption
+- type: file
+  name: slim-image-1
+  label: slim-image-1
+- type: text
+  name: slim-image-1-caption
+  label: slim-image-1-caption
+- type: file
+  name: double-image-1
+  label: double-image-1
+- type: file
+  name: double-image-2
+  label: double-image-2
+- type: text
+  name: double-image-1-caption
+  label: double-image-1-caption
+- type: text
+  name: double-image-2-caption
+  label: double-image-2-caption
+- type: file
+  name: wide-image-1
+  label: wide-image-1
