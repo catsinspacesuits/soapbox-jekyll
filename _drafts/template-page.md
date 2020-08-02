@@ -25,8 +25,34 @@ More specifically, academic sources are prohibitively scarce, and those that are
 
 </div>
 
-<div id="intro-paragraph" class="paragraph col-md-8 offset-md-2" markdown=1>
+<div class="normal-paragraph paragraph col-md-8 offset-md-2" markdown=1>
 
 After 1989, the subject of Solidarity was basically abandoned by Polish scholars, although it continued to attract sparse but continuous attention by Western scholars. \[Talk about the decline in labour history after the fall of the Berlin wall\]. It was only in the 20thC that it experienced a revival,4 with the European Solidarity Centre’s translation of several English-language monographs, and the publication of a synthesis in 2010 by the National Institute of Remembrance5 – the first since Holzer’s 1984 book
 
-</div
+Were they “On the left”?
+
+Whether Solidarność and Fosatu can be interpreted as “on the left” is disputed, especially in more polemical accounts, and the idea of worker power/self-management lies at the centre of this debate. In the case of Poland, a prominent body of work questions whether this left-right distinction is relevant at all.
+
+**Gaps in the scholarship**
+
+  
+The unexpected emergence of Solidarność (a legal, yet independent, workers’ movement in a “workers’ state”) provoked a widespread recognition from Polish scholars of weaknesses in Polish and East European social sciences \[find REF\], igniting a renewed interest in explanations and origins of upsurge. Surveys were initiated (e.g. led by Mirosław Marody and Ireneusz Kremiński), and dozens of books and articles
+
+Thirdly, most of the articles use “syndicalism” to mean an apolitical unionist stance that forgoes politics. This is very misleading _– and also inconsistent with the facts \[give some examples\]._
+
+* _Potoczny: Bujak = vision had been shaped by the KOR’s ethos of an “independent society”, which in turn had its roots in the anarcho-syndicalism of Edward Abramowski, a Polish syndicalist._
+* _Pravda: “amalgam”of adversary unionism, neo-coporatism, and syndicalism._[1](#sdfootnote1sym)
+* _Some claim that self-management overall was anarchist, some claim that this was only LG?_
+* _NTO = Marxist or Anarchist? Zalega and Chwedoruk._
+
+[1](#sdfootnote1anc) Alex Pravda, “Trade Unions in East European Communist Systems: Toward Corporatism?,” _International Political Science Review / Revue Internationale de Science Politique_ 4, no. 2 (1983): 241–60.
+
+</div>
+
+{% include block-image.html %}
+
+{% include block-wide-image.html %}
+
+{% include block-slim-image.html %}
+
+{% include block-double-image.html %}
