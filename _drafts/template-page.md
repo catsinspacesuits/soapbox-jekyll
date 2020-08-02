@@ -35,7 +35,6 @@ Whether Solidarność and Fosatu can be interpreted as “on the left” is disp
 
 **Gaps in the scholarship**
 
-  
 The unexpected emergence of Solidarność (a legal, yet independent, workers’ movement in a “workers’ state”) provoked a widespread recognition from Polish scholars of weaknesses in Polish and East European social sciences \[find REF\], igniting a renewed interest in explanations and origins of upsurge. Surveys were initiated (e.g. led by Mirosław Marody and Ireneusz Kremiński), and dozens of books and articles
 
 Thirdly, most of the articles use “syndicalism” to mean an apolitical unionist stance that forgoes politics. This is very misleading _– and also inconsistent with the facts \[give some examples\]._
