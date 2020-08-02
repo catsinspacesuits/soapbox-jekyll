@@ -49,9 +49,3 @@ Thirdly, most of the articles use “syndicalism” to mean an apolitical unioni
 </div>
 
 {% include block-image.html %}
-
-{% include block-wide-image.html %}
-
-{% include block-slim-image.html %}
-
-{% include block-double-image.html %}
