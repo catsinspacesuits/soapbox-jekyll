@@ -15,7 +15,7 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-upload_dir: assets/images
+upload_dir: ''
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
