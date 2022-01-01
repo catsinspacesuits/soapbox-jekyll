@@ -33,5 +33,28 @@ ul li a {
   padding: 35px;
 }
 
+.nav-About .nav-link {
+  color: $teal !important;
+}
+
+.dropdown .nav-link {
+  color: $dirty-pink !important;
+}
+
+.nav-Network .nav-link {
+  color: $mango !important;
+}
+
+.nav-Contact .nav-link {
+  color: $orange !important;
+}
+
+.navbar .nav-link:hover {
+  color: white !important;
+  transition: color 200ms linear;
+
+}
+
+
 
 

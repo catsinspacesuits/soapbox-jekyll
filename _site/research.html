@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -41,7 +42,7 @@
         <ul class="navbar-nav w-100 justify-content-end">
             
             
-            <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
+            <li class="nav-item nav-About"><a class="nav-link" href="/about">ABOUT</a></li>
             
       
             
@@ -64,11 +65,11 @@
       
       
             
-            <li class="nav-item"><a class="nav-link" href="/networks">NETWORK</a></li>
+            <li class="nav-item nav-Network"><a class="nav-link" href="/networks">NETWORK</a></li>
             
       
             
-            <li class="nav-item"><a class="nav-link" href="/#contact">CONTACT</a></li>
+            <li class="nav-item nav-Contact"><a class="nav-link" href="/#contact">CONTACT</a></li>
             
       
     </ul>
@@ -239,6 +240,14 @@ function showContainer(tag) {
     list.setAttribute('class', 'blog-list-container');
   }
 }
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.cross').click(function() {
+$('#form').modal('hide');
+});
+
+});
 </script>
   </body>
 </html>

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -41,7 +42,7 @@
         <ul class="navbar-nav w-100 justify-content-end">
             
             
-            <li class="nav-item"><a class="nav-link" href="/about">ABOUT</a></li>
+            <li class="nav-item nav-About"><a class="nav-link" href="/about">ABOUT</a></li>
             
       
             
@@ -64,11 +65,11 @@
       
       
             
-            <li class="nav-item"><a class="nav-link" href="/networks">NETWORK</a></li>
+            <li class="nav-item nav-Network"><a class="nav-link" href="/networks">NETWORK</a></li>
             
       
             
-            <li class="nav-item"><a class="nav-link" href="/#contact">CONTACT</a></li>
+            <li class="nav-item nav-Contact"><a class="nav-link" href="/#contact">CONTACT</a></li>
             
       
     </ul>
@@ -144,7 +145,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 offset-md-1 video-box">
-        <h2 class="video-title">Video: blah blah blah</h2>
+        <h2 class="video-title">Video Title</h2>
+        <p class="video-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cupidatat non proident, sunt in culpa qui officia.</p>
         <div style="position:relative;padding-top:56.25%;">
           <iframe src="https://www.youtube.com/embed/GJDNkVDGM_s" frameborder="0" allowfullscreen
           style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe> 
@@ -157,25 +159,71 @@
 
 
 
-<div class="newsletter-wrapper" style="background-image: url('/assets/images/background-home.jpeg');">
-  <div class="container">
+<div class="newsletter-wrapper" style="background-image: url('/assets/images/paper.jpg');">
+
+  <div class="container h-100">
+    <div class="row  h-100 justify-content-center align-items-center">
+      <div class="col-md newsletter-small-text line-break">
+        <p>Keep up to speed with what's going on through our newsletter!</p>
+        <button class="newsletter-2-button" data-toggle="modal" data-target="#form">SUBSCRIBE!
+      </button></div>
+      <div class="col-md">
+        
+          <p class="newsletter-small-text">Follow us!</p>
+          <div class="newsletter-social-wrapper">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      </div> <!-- end of row -->
+    
+
+  </div> <!-- end of container -->
+
+</div> <!-- end of wrapper -->
+
+
+
+
+
+
+
+
+  <!-- <div class="container">
     <div class="newsletter-box row">
       <div class="newsletter-small-text">Keep up to speed with what's going on through our newsletter and our social media channels!</div>
     </div>  
     <div class="row">
       <div class="newsletter-button-wrapper">
-        <a href="/subscribe" target="_blank"><button class="button newsletter-button">SUBSCRIBE!</button></a>
+        <button class="button newsletter-button" data-toggle="modal" data-target="#form">SUBSCRIBE!</button>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 newsletter-social-wrapper">
-       
+      <div class="col-md-6 newsletter-social-wrapper">   
         <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
     </div>
     </div>
   </div>
+</div> -->
+
+<!-- MODAL -->
+
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="text-right cross"> <i class="fa fa-times"></i> </div>
+            <div class="card-body text-center mb-5"> <img src="/assets/images/typewriter.png" height="200" width="300">
+                <h4 class="mt-1">SUBSCRIBE!</h4>
+                <p>Subscribe to the Soapbox Collective newsletter and we'll let you know about upcoming events and new content.</p>
+                <div class="form-group"> <input type="text" id="name" class="form-control" required> <label class="form-control-placeholder" for="name">your email address</label> </div> 
+                <button class="modal-button">Sign me up!</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -183,11 +231,13 @@
 <section id="contact" class="contact-section" style="background-color: #FFE8DE;">
   <form action="https://formspree.io/mjvaoqrn" method="POST">
   <div class="container contact-wrapper justify-content-md-center">
-    <div class="row">
-        <h1 class="contact-heading">CONTACT US</h1>
-    </div>
-    <div class="row contact-text">
-        <h4 style="text-align:center">We'd love to hear from you!</h4>
+    <div class="row contact-header">
+        <div class="offset-3 col-md-4 contact-headings-wrapper">
+          <h1 class="contact-heading">CONTACT US</h1>
+          <h4>We'd love to hear from you!</h4>
+        </div>
+        <div class="offset-1 col-md-2 contact-image" style="background-image: url('/assets/images/mailbox.png');">
+        </div>
     </div>
     <div class="row input-container offset-md-3 contact-center">
         <div class="col-sm-12">
@@ -325,6 +375,14 @@ function showContainer(tag) {
     list.setAttribute('class', 'blog-list-container');
   }
 }
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.cross').click(function() {
+$('#form').modal('hide');
+});
+
+});
 </script>
   </body>
 </html>

@@ -3,24 +3,53 @@
   padding: 9rem 0;
 }
 
-.contact-section h4 {
-  padding: 3.5rem;
+
+  .contact-section input, .contact-section textarea {
+    border: 1px solid #bbb;
+  
+}
+
+.contact-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+   height: 200px;
+   width: 100px;
+
 }
 
 .contact-wrapper h1, h4 {
     display: block;
     margin: 0 auto;
-    padding: 1.6rem;
 }
 
 .contact-center {
   margin: 0 auto !important;
 }
 
+.contact-header {
+  margin-bottom: 50px;
+}
+
 .contact-heading {
-  width: 28%;
+  display: inline-block;
+  position: relative;
+  padding-top: 40px;
+}
+
+.contact-section h4 {
+  padding-top: 50px;
+}
+
+.contact-headings-wrapper {
+  padding-left: 0 !important;
+}
+
+.contact-heading:before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  bottom: -20%;
   border-bottom: 1px solid black;
-  text-align: center;
 }
 
 .contact-text {
@@ -66,7 +95,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 .styled-input label {
     color: #999;
-    padding: 1.3rem 30px 1rem 30px;
+    padding: 0.8rem 30px 1rem 30px;
     position: absolute;
     top: 10px;
     left: 0;
@@ -82,7 +111,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 input,
 textarea {
-    padding: 30px;
+    padding: 20px;
     border: 1px solid $jade;
     width: 100%;
     font-size: 1rem;

@@ -1,7 +1,7 @@
 ---
 title: jjjjjjjjjjj
-sub-title: ''
-main-image: "/uploads/_site/assets/images/network.jpg"
+sub-title: 'Some text here. asdas ad ad df cxv  xvcxcvxcvx xv xcv x cvxvxcvdfsdf fssdfsdf xfx xv  xvxcvx cxvvx vxvx'
+main-image: "/protest.jpg"
 video-1-url: ''
 video-1-caption: ''
 image-1: ''

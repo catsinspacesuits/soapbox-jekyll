@@ -5,18 +5,33 @@
     </div>  
     <div class="row">
       <div class="newsletter-button-wrapper">
-        <a href="/subscribe" target="_blank"><button class="button newsletter-button">SUBSCRIBE!</button></a>
+        <button class="button newsletter-button" data-toggle="modal" data-target="#form">SUBSCRIBE!</button>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 newsletter-social-wrapper">
-       
+      <div class="col-md-6 newsletter-social-wrapper">   
         <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
         <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
     </div>
     </div>
   </div>
+</div>
+
+<!-- MODAL -->
+
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="text-right cross"> <i class="fa fa-times"></i> </div>
+            <div class="card-body text-center mb-5"> <img src="{{site.baseurl}}/assets/images/typewriter.png" height="200" width="300">
+                <h4 class="mt-1">SUBSCRIBE!</h4>
+                <p>Subscribe to the Soapbox Collective newsletter and we'll let you know about upcoming events and new content.</p>
+                <div class="form-group"> <input type="text" id="name" class="form-control" required> <label class="form-control-placeholder" for="name">your email address</label> </div> 
+                <button class="modal-button">Sign me up!</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
