@@ -1,6 +1,8 @@
 headings: 
   - name: About
-    link: /about   
+    link: /about
+  - name: Blog
+    link: /blog    
   - name: Activities
     link: /
   - name: Network
@@ -9,8 +11,6 @@ headings:
     link: /#contact
 
 activities:
-  - name: Blog
-    link: /blog
   - name: Multimedia
     link: /multimedia   
   - name: Research & Analysis
