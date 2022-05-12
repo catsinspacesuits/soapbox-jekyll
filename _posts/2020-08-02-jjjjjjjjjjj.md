@@ -1,6 +1,6 @@
 ---
-title: jjjjjjjjjjj
-sub-title: 'Some text here. asdas ad ad df cxv  xvcxcvxcvx xv xcv x cvxvxcvdfsdf fssdfsdf xfx xv  xvxcvx cxvvx vxvx'
+title: Another Article
+sub-title: 'Some text here. ANd some more and more and more'
 main-image: "/protest.jpg"
 video-1-url: ''
 video-1-caption: ''
