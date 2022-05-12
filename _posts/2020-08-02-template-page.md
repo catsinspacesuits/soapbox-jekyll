@@ -1,17 +1,17 @@
 ---
 title: Template Page
-sub-title: Examples of building blocks that can be used to make a page
-main-image: "/cat.jpg"
+sub-title: Examples of building blocks that can be used to make a page. Click on a block to open more details!
+main-image: "/network.jpg"
 video-1-url: https://www.youtube.com/embed/fl1H5k3DFKk
 video-1-caption: caption
-image-1: "/menu_004.png"
+image-1: "/cat.jpg"
 image-1-caption: another caption
 slim-image-1: "/rentstrike.jpg"
 slim-image-1-caption: slim caption
-double-image-1: "/30552678.jpeg"
-double-image-2: "/icons/fist.png"
-double-image-1-caption: head
-double-image-2-caption: fist
+double-image-1: "/megaphone.jpg"
+double-image-2: "/sign.jpg"
+double-image-1-caption: captopn 1
+double-image-2-caption: caption 2
 wide-image-1: "/crowd.jpg"
 
 ---
