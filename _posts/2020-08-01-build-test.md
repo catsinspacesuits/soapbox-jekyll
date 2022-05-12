@@ -1,7 +1,7 @@
 ---
 title: Build Test
-sub-title: 'SOme text cat mghasd asdasd d d d adasdasd '
-main-image: "/assets/images/gojek.jpg"
+sub-title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit'
+main-image: "gojek.jpg"
 video-1-url: https://www.youtube.com/embed/fl1H5k3DFKk
 video-1-caption: video caption here
 image-1: "/assets/images/sign.jpg"

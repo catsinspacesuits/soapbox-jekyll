@@ -1,7 +1,7 @@
 ---
-title: dfsfsfsdf
-sub-title: sdfsdfsdfsdf
-main-image: "/uploads/sign.jpg"
+title: Another Post
+sub-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit.
+main-image: "sign.jpg"
 video-1-url: ''
 video-1-caption: ''
 image-1: "/uploads/protest.jpg"

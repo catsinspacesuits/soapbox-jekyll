@@ -5,7 +5,7 @@ sub-title: 'To have markdown rendered within HTML blocks, what is usually 5 done
   other 4 Markdown dialects 8 is to add a markdown=1 option '
 tags: ''
 format: ''
-image: "crowd.jpg"
+main-image: "crowd.jpg"
 video-url: https://www.youtube.com/embed/_qmqW2EOZzg
 double-image-1: "/uploads/podcast.jpg"
 double-image-2: "/uploads/camera.jpg"

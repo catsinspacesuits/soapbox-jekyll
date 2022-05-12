@@ -1,12 +1,11 @@
 ---
 title: Rent Strikes
-sub-title: Direct action against the landlord class
-image: rentstrike.jpg
+sub-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit
+main-image: rentstrike.jpg
 author: Sian Byrne
 tags: interview
 format: interview
 
 ---
-{% include about.html %}
 
 

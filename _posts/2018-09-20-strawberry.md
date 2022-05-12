@@ -1,8 +1,8 @@
 ---
-title: Mega Essay
+title: An Essay
 sub-title: Duis aute irure dolor in reprehen.Duis aute irure dolor in reprehen
 tags: article
-image: blm.jpg
+main-image: blm.jpg
 format: article
 ---
 

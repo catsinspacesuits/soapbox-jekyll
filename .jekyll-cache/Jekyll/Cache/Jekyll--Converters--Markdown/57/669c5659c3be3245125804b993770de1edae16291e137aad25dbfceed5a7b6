@@ -1,0 +1,129 @@
+I"c$<div id="intro-paragraph" class="paragraph col-md-8 offset-md-2">
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor.sed lobortis pulvinar. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien. olor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Prima dolce le di lato.</p>
+
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <p><em>Lorem ipsum</em>, or <em>lipsum</em> as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero’s <em>De Finibus Bonorum et Malorum</em> for use in a type specimen book. It usually begins with:</p>
+
+  <p>The purpose of <em>lorem ipsum</em> is to create a natural looking block of text (sentence, normal-paragraph paragraph, page, etc.) that doesn’t distract from the layout. A practice not without <a href="https://loremipsum.io/#controversy" title="Controversy in the Design World">controversy</a>, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</p>
+
+  <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our <a href="https://loremipsum.io/#generator" title="Lorem Ipsum Generator">generator</a> to get your own, or read on for the authoritative history of <em>lorem ipsum</em>.</p>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 block-image-container">
+      <div class="block-image img-responsive" style="background-image: url('/assets/images/crowd.jpg');">
+      </div>
+        
+        <p class="figure-caption image-1-caption">A caption for the above image can go here if wanted</p>
+        
+    </div>
+  </div>   
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <h2 id="heading">Heading</h2>
+  <p><br /></p>
+
+  <p>Bullet points are used to draw attention to important information within a document so that a reader can identify the key issues and facts quickly. There are no fixed rules about how to use them, but here are some guidelines:</p>
+
+  <p>1.The text introducing the list of bullet points should end with a <a href="https://www.lexico.com/grammar/bullet-points">colon</a>.</p>
+
+  <p>2. If the text that follows the bullet point is not a proper sentence, it doesn’t need to begin with a capital letter, nor end with a <a href="https://www.lexico.com/grammar/period-full-stop" title="Period (.)">period</a>. For example:</p>
+
+  <p><em>Tonight’s agenda includes:</em></p>
+
+  <ul>
+    <li><em>annual review of capital gains issues</em></li>
+    <li><em>inheritance tax issues</em></li>
+  </ul>
+
+  <p>3. If the text following the bullet point is a complete sentence, it should begin with a capital letter, while a period at the end is technically required but is not absolutely essential.</p>
+
+  <p>4. Lists of bullet points will have more impact if each one begins with the same <a href="https://www.lexico.com/grammar/word-classes-or-parts-of-speech">word class (part of speech)</a> and if they are all of a similar length. Action verbs are a good choice for the first word—i.e., verbs that describe the performing of an action. If you do use verbs, make sure that each one is in the same tense. Here’s an example of the effective use of action verbs in a person’s résumé:</p>
+
+</div>
+
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="offset-1 col-md-5 block-two-image-container">
+      <div class="block-two-image img-responsive" style="background-image: url('/assets/images/camera.jpg');">
+      </div>
+      
+        <p class="figure-caption image-1-caption">another caption</p>
+        
+    </div>
+    <div class="col-md-5 col-sm-12 block-two-image-container">
+      <div class="block-two-image img-responsive" style="background-image: url('/assets/images/protest.jpg');">
+      </div>
+      
+        <p class="figure-caption image-1-caption">and another</p>
+        
+    </div>
+  </div>   
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <p><em>We will conduct an annual review of capital gains issues.</em> Richard McClintock, a Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em></p>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 video-box">
+      <div style="position:relative;padding-top:56.25%;">
+        <iframe src="https://www.youtube.com/embed/kq4ghiiSm0Q" frameborder="0" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe> 
+      </div>
+      
+        <p class="figure-caption image-1-caption">video caption here</p>
+        
+    </div>
+ </div>   
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <p><em>We will conduct an annual review of capital gains issues.</em> Richard McClintock, a Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word.</p>
+
+  <p>Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em> , with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em>.</p>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 block-slim-image-container">
+      <div class="block-slim-image img-responsive" style="background-image: url('/assets/images/blm.jpg');">
+      </div>
+        
+        <p class="figure-caption image-1-caption">slim image caption</p>
+        
+    </div>
+  </div>   
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <p>Richard McClintock, a Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em> (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.</p>
+
+  <p>Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em> (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher</p>
+
+</div>
+
+<div class="block-wide-image img-responsive" style="background-image: url('/assets/images/crowd.jpg');">
+</div>
+
+<div class="normal-paragraph paragraph col-md-8 offset-md-2">
+
+  <p>Richard McClintock, a Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em> (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.</p>
+
+  <p>Latin scholar from Hampden-Sydney College, is <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" title="Wikipedia – Lorem Ipsum">credited</a> with discovering the source behind the ubiquitous filler text. In seeing a sample of <em>lorem ipsum</em>, his interest was piqued by <em>consectetur</em>—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from <em>De Finibus Bonorum et Malorum</em> (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher</p>
+
+</div>
+:ET
