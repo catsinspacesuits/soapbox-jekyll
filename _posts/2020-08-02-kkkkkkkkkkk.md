@@ -1,7 +1,7 @@
 ---
 title: Another Article
-sub-title: Sub-title here
-main-image: "/megaphone.jpg"
+sub-title: Example title
+main-image: "/uploads/protest.jpg"
 video-1-url: ''
 video-1-caption: ''
 image-1: ''

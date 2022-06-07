@@ -1,15 +1,16 @@
 ---
 title: Another Post
-sub-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit.
-main-image: "sign.jpg"
+sub-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+  dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit.
+main-image: sign.jpg
 video-1-url: ''
 video-1-caption: ''
 image-1: "/uploads/protest.jpg"
 image-1-caption: ''
 slim-image-1: "/uploads/podcast.jpg"
 slim-image-1-caption: ''
-double-image-1: "/uploads/network.jpg"
-double-image-2: "/uploads/rentstrike.jpg"
+double-image-1: "/sign.jpg"
+double-image-2: "/protester.jpg"
 double-image-1-caption: ''
 double-image-2-caption: ''
 wide-image-1: "/uploads/megaphone.jpg"
