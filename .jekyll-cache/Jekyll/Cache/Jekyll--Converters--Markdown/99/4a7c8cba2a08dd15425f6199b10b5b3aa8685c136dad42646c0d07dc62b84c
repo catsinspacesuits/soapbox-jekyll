@@ -1,6 +1,6 @@
-I"g'<div id="intro-paragraph" class="paragraph col-md-8 offset-md-2">
+I"d'<div id="intro-paragraph" class="paragraph col-md-8 offset-md-2">
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor.sed lobortis pulvinar. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien. olor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Prima dolce le di lato.</p>
+  <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor.sed lobortis pulvinar. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien. olor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Prima dolce le di lato.</p>
 
 </div>
 
@@ -53,12 +53,12 @@
 <div class="container">
   <div class="row justify-content-between">
     <div class="offset-1 col-md-5 block-two-image-container">
-      <div class="block-two-image img-responsive" style="background-image: url('/assets/images//uploads/network.jpg');">
+      <div class="block-two-image img-responsive" style="background-image: url('/assets/images//sign.jpg');">
       </div>
       
     </div>
     <div class="col-md-5 col-sm-12 block-two-image-container">
-      <div class="block-two-image img-responsive" style="background-image: url('/assets/images//uploads/rentstrike.jpg');">
+      <div class="block-two-image img-responsive" style="background-image: url('/assets/images//protester.jpg');">
       </div>
       
     </div>
