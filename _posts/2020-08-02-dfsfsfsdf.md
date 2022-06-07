@@ -18,7 +18,7 @@ wide-image-1: "/uploads/megaphone.jpg"
 ---
 <div id="intro-paragraph" class="paragraph col-md-8 offset-md-2" markdown=1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor.sed lobortis pulvinar. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien. olor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Prima dolce le di lato.
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Donec aliquet dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor.sed lobortis pulvinar. Nulla eros mauris, convallis et sem tempus, viverra hendrerit sapien. olor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit eget neque porttitor congue non sit amet dolor. Prima dolce le di lato.
 
 </div>
 
