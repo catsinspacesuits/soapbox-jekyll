@@ -1,5 +1,5 @@
 ---
-title: Another Post
+title: Another Post 2
 sub-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
   dolor libero, eget venenatis mauris finibus dictum. Vestibulum quis elit.
 main-image: sign.jpg
