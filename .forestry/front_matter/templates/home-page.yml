@@ -41,3 +41,17 @@ fields:
   label: Video URL
   description: 'Too add the URL form a Youtube use the following format: <a href="https://www.youtube.com/embed/GJDNkVDGM_s"
     title="https://www.youtube.com/embed/GJDNkVDGM_s" target="_blank">https://www.youtube.com/embed/GJDNkVDGM_s</a>'
+- name: newsletter-text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Newsletter text
+- name: social-text
+  type: text
+  config:
+    required: false
+  label: Social media text
