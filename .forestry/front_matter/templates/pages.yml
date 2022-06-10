@@ -8,3 +8,5 @@ fields:
     required: false
   label: layout
   hidden: true
+pages:
+- test.md
