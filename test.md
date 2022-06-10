@@ -16,6 +16,8 @@ wide-image-1: ''
 layout: default
 
 ---
+{% include page_header.html %}
+
 TESTING 1, 2, 3
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc neque, auctor eu finibus ac, volutpat eget lacus. Vestibulum eget fringilla dolor. Nunc in enim placerat, hendrerit neque in, tristique lacus. Donec sit amet blandit odio. Maecenas non nisi quis quam gravida efficitur sit amet nec justo. Curabitur facilisis justo magna, tempus sodales elit varius bibendum. Mauris malesuada dapibus diam, ut vulputate arcu maximus quis. Cras pretium ultricies sem ut mattis. Aenean tincidunt ante vel suscipit mattis. Mauris sollicitudin lacus consectetur augue aliquet posuere. Praesent non quam nec urna tempor viverra sed vehicula nibh. Proin quis enim vel leo gravida ullamcorper sed et nulla.
