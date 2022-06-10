@@ -1,7 +1,7 @@
 ---
 title: Test
 sub-title: ''
-main-image: ''
+main-image: "/meer.jpg"
 video-1-url: ''
 video-1-caption: ''
 image-1: ''
