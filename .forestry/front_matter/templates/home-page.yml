@@ -91,3 +91,5 @@ fields:
   config:
     required: false
   label: Youtube link
+pages:
+- index.html
