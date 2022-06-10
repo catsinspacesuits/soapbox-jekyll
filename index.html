@@ -8,29 +8,25 @@ logo: bunny-white.png
 logo-image: bunny-white.png
 background-colour: "#FFE8DE"
 about-box-colour: '#f89f7d'
-about-box-text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, massa vel viverra ornare, felis leo lobortis enim, vitae elementum sapien turpis nec odio. Curabitur efficitur erat non suscipit feugiat. Vestibulum at tellus blandit, lacinia elit ac, porttitor augue. Aenean sit amet nisl sit amet tellus congue maximus. Donec aliquet eros dolor. Mauris congue leo in diam sollicitudin consequat. Vestibulum vel facilisis sem. Donec iaculis sodales metus pretium pharetra. Nulla sapien nisl, consequat vitae viverra'
+about-box-text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin, massa vel viverra ornare, felis leo lobortis enim, vitae elementum sapien turpis nec odio. Curabitur efficitur erat non suscipit feugiat. Vestibulum at tellus blandit, lacinia elit ac, porttitor augue. Aenean sit amet nisl sit amet tellus congue maximus. Donec aliquet eros dolor. Mauris congue leo in diam sollicitudin consequat. Vestibulum vel facilisis sem. Donec iaculis sodales metus pretium pharetra. Nulla sapien nisl, consequat vita.'
+video-title: Video title
+video-text: 'Text for video here... Consectetur adipiscing elit. Nam sollicitudin, massa vel viverra ornare, felis leo lobortis enim, vitae elementum sapien turpis nec odio. Curabitur efficitur erat non suscipit'
 video-url: https://www.youtube.com/embed/L9jZXkkXVmQ
+newsletter-text: Keep up to speed with what's going on through our newsletter!
+social-text: Follow us!
+newsletter-background-image: paper.jpg
+newsletter-modal: Subscribe to the Soapbox Collective newsletter and we'll let you know about upcoming events and new content.
+contact-text: We'd love to hear from you!
 footer-colour: "#f89f7d"
-
-
+facebook-link: "https://www.facebook.com/"
+twitter-link: "https://www.twitter.com/"
+youtube-link: "https://www.youtube.com/"
 
 ---
+
 {% include header.html %}
 {% include icons.html %}
-
-<section class="about-small-section" style="background-color: {{ page.background-colour }};">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 offset-md-2 about-small-box" style="background-color: {{ page.about-box-colour }};" >
-        <h1 class="about-small-heading"><span class="first-word">ABOUT </span><span class="second-word">US</span></h1>
-        <p class="about-small-text">{{ page.about-box-text }}</p> 
-
-        <a href="/about"><button class="button about-button">MORE ABOUT US</button></a>
-        
-      </div>
-  </div>
-</section>
-
+{% include about-small.html %}
 {% include video.html %}
 {% include newsletter-small-2.html %}
 {% include contact.html %}

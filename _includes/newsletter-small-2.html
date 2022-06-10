@@ -1,18 +1,18 @@
-<div class="newsletter-wrapper" style="background-image: url('{{site.baseurl}}/assets/images/paper.jpg');">
+<div class="newsletter-wrapper" style="background-image: url('{{site.baseurl}}/assets/images/{{ page.newsletter-background-image }}');">
 
   <div class="container h-100">
     <div class="row  h-100 justify-content-center align-items-center">
       <div class="col-md newsletter-small-text line-break">
-        <p>Keep up to speed with what's going on through our newsletter!</p>
+        <p>{{ page.newsletter-text }}</p>
         <button class="newsletter-2-button" data-toggle="modal" data-target="#form">SUBSCRIBE!
       </button></div>
       <div class="col-md">
         
-          <p class="newsletter-small-text">Follow us!</p>
+          <p class="newsletter-small-text">{{ page.social-text }}</p>
           <div class="newsletter-social-wrapper">
-            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a href="{{ page.facebook-link }}" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="{{ page.twitter-link }}" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="{{ page.youtube-link }}" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
       </div>
       
@@ -22,11 +22,6 @@
   </div> <!-- end of container -->
 
 </div> <!-- end of wrapper -->
-
-
-
-
-
 
 
 
@@ -57,7 +52,7 @@
             <div class="text-right cross"> <i class="fa fa-times"></i> </div>
             <div class="card-body text-center mb-5"> <img src="{{site.baseurl}}/assets/images/typewriter.png" height="200" width="300">
                 <h4 class="mt-1">SUBSCRIBE!</h4>
-                <p>Subscribe to the Soapbox Collective newsletter and we'll let you know about upcoming events and new content.</p>
+                <p>{{ page.newsletter-modal }}</p>
                 <div class="form-group"> <input type="text" id="name" class="form-control" required> <label class="form-control-placeholder" for="name">your email address</label> </div> 
                 <button class="modal-button">Sign me up!</button>
             </div>
