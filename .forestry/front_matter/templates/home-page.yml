@@ -71,3 +71,8 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: newsletter-modal
+  type: text
+  config:
+    required: false
+  label: Newsletter pop up box text
