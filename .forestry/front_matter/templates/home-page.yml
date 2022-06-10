@@ -76,3 +76,18 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: facebook-link
+  type: text
+  config:
+    required: false
+  label: Facebook link
+- name: twitter-link
+  type: text
+  config:
+    required: false
+  label: Twitter link
+- name: youtube-link
+  type: text
+  config:
+    required: false
+  label: Youtube link
