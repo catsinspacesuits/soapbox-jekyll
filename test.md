@@ -13,7 +13,7 @@ double-image-2: ''
 double-image-1-caption: ''
 double-image-2-caption: ''
 wide-image-1: ''
-layout: ''
+layout: default
 
 ---
 TESTING 1, 2, 3
