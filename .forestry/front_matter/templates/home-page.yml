@@ -1,4 +1,43 @@
 ---
 label: Home page
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: Header title
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Header logo
+  description: Something 400x400 pixels roughly works best. Resizing image file might
+    be needed
+- name: about-box-colour
+  type: color
+  label: About box background colour
+  config:
+    required: false
+    color_format: Hex
+- name: video-title
+  type: text
+  config:
+    required: false
+  label: Video title
+- name: video-text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Video text
+- name: video-url
+  type: text
+  config:
+    required: false
+  label: Video URL
+  description: 'Too add the URL form a Youtube use the following format: <a href="https://www.youtube.com/embed/GJDNkVDGM_s"
+    title="https://www.youtube.com/embed/GJDNkVDGM_s" target="_blank">https://www.youtube.com/embed/GJDNkVDGM_s</a>'
