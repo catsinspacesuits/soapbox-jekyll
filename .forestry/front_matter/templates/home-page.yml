@@ -60,3 +60,9 @@ fields:
   config:
     required: false
   label: Contact us text
+- name: footer-colour
+  type: color
+  label: Footer background colour
+  config:
+    required: false
+    color_format: Hex
