@@ -21,3 +21,4 @@ fields:
   label: main-image
 pages:
 - test.md
+- testing.html.md
