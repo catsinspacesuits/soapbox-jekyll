@@ -20,6 +20,7 @@ fields:
     maxSize: 64
   label: main-image
 pages:
+- blah.html
 - test.md
 - testing-again.html
 - testing.html.md
